@@ -1,0 +1,29 @@
+Project Title: UI Widgets with Responsive Design and Interactive Features
+
+1. Tab Widget
+
+Purpose: Designed to offer a clear, interactive way to present categorized content in a single, space-efficient UI component.
+Content Sections:
+"About Me": Provides a brief introduction and personal background.
+"Experiences": Lists professional experiences and achievements.
+"Recommended": Shares recommended resources or books.
+Interaction: Clicking on each tab updates the displayed content, ensuring users can easily navigate between different sections.
+Design Considerations:
+Responsiveness: The widget adapts to various screen sizes, ensuring usability on laptops (width above 768px).
+Visuals: Tabs are styled to be visually distinct with active tabs highlighted in black.
+Accessibility: The tabIndex and aria-selected attributes are used to enhance accessibility for keyboard and screen reader users.
+2. Gallery Widget
+
+Purpose: To provide a dynamic and interactive way for users to view and manage a collection of images.
+Key Features:
+Photo Grid: Displays images in a grid layout for easy viewing.
+Add Image Functionality: Allows users to upload new photos, enhancing the gallery's content.
+Navigation Arrows: Users can navigate through images with previous and next buttons.
+Design Considerations:
+Responsiveness: Ensures the gallery is viewable and functional across different screen sizes.
+Interactive Elements: Includes buttons for adding images and navigating the gallery, with visual feedback (e.g., hover effects) to enhance user experience.
+Visuals: Utilizes a consistent design theme with Tailwind CSS for styling the gallery and its interactive elements.
+General Notes:
+
+Alignment: The two widgets are aligned side by side in the layout, ensuring a cohesive and organized appearance.
+Padding and Margins: Consistent padding and margins are applied to maintain a clean and structured layout.
